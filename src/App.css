@@ -13,21 +13,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 .Header {
   height: 5vh;
   display: flex;
@@ -35,7 +20,70 @@
   align-items: center;
   background-color: #61dafb;
   padding: 0.5em;
+}
 
+.Sidebar {
+  width: 33%;
+  height: 100vh;
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.CardWrapper {
+  border-radius: 5px;
+  width: 80%;
+  height: 25%;
+  background: linear-gradient(to top right, #4361ee, #f72585);
+  color: white;
+  margin: 2em;
+  margin-top: 5em;
+}
+
+.Card {
+  height: 80%;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.CardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CardMid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Visa {
+  width: 20%;
+  height: 100%;
+  z-index: 1;
+}
+
+.Microchip {
+  width: 20%;
+  height: 100%;
+}
+
+.CardDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Balance {
+  font-size: 3em;
+  text-align: left;
+}
+
+.ExpDate {
+  font-size: 0.75em;
 }
 
 @keyframes App-logo-spin {
